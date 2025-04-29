@@ -1,0 +1,38 @@
+.auth-form {
+  width: 100%;
+}
+.search-radio {
+  padding: 10px 20px;
+  border: 0.5px solid grey;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.search-radio label {
+  padding-right: 10px;
+}
+.search-results img {
+  height: 200px !important;
+  object-fit: cover;
+  object-position: top;
+}
+.login-btn {
+  outline: none;
+  border: none;
+  background: none;
+  color: blue;
+  border-radius: 5px;
+  padding: 8px 20px;
+}
+/* .login-btn {
+  outline: none;
+  border: none;
+  background: blue;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+} */
+.tag-row {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding-bottom: 0.5rem;
+}
