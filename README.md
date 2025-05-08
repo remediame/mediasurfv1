@@ -1,12 +1,32 @@
-# React + Vite
+# 🎨 Open License Media Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web application for searching and browsing open-license images using the [Openverse API](https://api.openverse.org/v1/). The app supports user authentication, search history tracking, media filtering, and is built with React and Supabase. It is containerized using Docker and includes basic test support with Jest.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Features
 
-## Expanding the ESLint configuration
+- 🔐 **User Authentication** (Sign up / Login / Logout) via Supabase
+- 🔍 **Media Search** using Openverse API
+- 🕵️‍♂️ **Search History Tracking** (stored per user)
+- 🏷️ **Tag-based Filtering** of media results
+- 🧪 **React Unit Tests** using Jest
+- 🐳 **Dockerized** for easy local or production deployment
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/mayorkingin/mediasurfv1.git
+cd mediasurfv1
+```
+
+### 2. Clone the Repo
+
+```bash
+git clone https://github.com/mayorkingin/mediasurfv1.git
+cd mediasurfv1
+```
